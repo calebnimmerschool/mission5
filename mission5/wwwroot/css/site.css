@@ -1,0 +1,90 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.icon {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: inline-block; /* Display image inline with text */
+    vertical-align: middle; /* Align the icon vertically with the text */
+    margin-right: 10px; /* Space between the icon and the title */
+}
+
+.title-text {
+    display: inline-block; /* Ensure text is inline with the image */
+    vertical-align: middle; /* Align text vertically with the icon */
+}
+
+.text-left-container {
+    width: 100%; /* Ensure the container spans the full width */
+    margin-top: 20px; /* Add space between the title and the next section */
+    margin-bottom: 20px;
+}
+
+.text-left {
+    text-align: left; /* Align text to the left */
+    padding-left: 0; /* Remove any default padding */
+    width: 100%; /* Ensure the text takes full width */
+    margin: 0; /* Remove any default margin */
+}
+
+.image {
+    width: 500px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Make the image a block-level element */
+    margin-top: 20px; /* Add space between the image and the text */
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #f8f9fa; /* Background color of the footer */
+    padding: 20px 0;
+    margin-top: 40px; /* Padding for top and bottom */
+    text-align: center; /* Center-align the text */
+    position: fixed; /* Fix the footer at the bottom of the page */
+    bottom: 0; /* Position it at the bottom */
+    width: 100%; /* Ensure it spans the full width */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+}
+
+.footer .container {
+    max-width: 960px; /* Limit the width of the footer content */
+    margin: 0 auto; /* Center the content within the footer */
+}
+
+.footer p {
+    margin: 0; /* Remove default margin */
+    color: #6c757d;
+}
+
+.output-box {
+    width: 300px;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+
